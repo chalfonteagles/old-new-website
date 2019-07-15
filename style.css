@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,700&display=swap');
+
+
+.headcont{
+	background-color: #b3b3b3;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+	padding: 30px;
+	max-width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+@media only screen and (max-width: 600px) {
+  div.headcont {
+		max-width: 100%;
+		margin-top: 0px;
+		font-size: 12px;
+  }
+}
+
+.logo{
+	margin: 10px;
+	max-width: 200px;
+	max-height: 200px;
+
+}
+
+.navbar-default {
+  background-color: #bb0000;
+  background-image: none;
+  background-repeat: no-repeat;
+	background-position: fixed;
+ }
+ 
+ .navbar-home {
+  background-color: #bb0000;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+.calendar{
+	margin: 50px;
+	width: 80%;
+}
+
+
+.body {
+  background-color: #1d1d1f	;
+}
+
+
+.my-badge{
+	margin-right: 30px;
+}
+
+
+
