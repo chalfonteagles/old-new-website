@@ -1,14 +1,25 @@
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2><font color="white">Contact</font></h2>
+
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+<font color="white">
+    Amersham School<br />
+    Stanley Hill<br />
+    Amersham<br />
+    HP7 9HH<br />
+    Phone: Enter phone here<br />
+    </font>
 </address>
 
 <address>
+    <font color="white">
     <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        </font>
 </address>
+
+{% endblock %}
