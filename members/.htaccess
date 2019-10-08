@@ -1,1 +1,4 @@
-#############
+AuthName "Club Member Area"
+AuthUserFile chalfonteagles.github.io/members/.htpasswd
+AuthType Basic
+require valid-user
