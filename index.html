@@ -1,6 +1,10 @@
-{% extends "layout.html" %}
-
-{% block content %}
+<script>
+	function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
 
 		<div class="headcont container-fluid">
 			<img class="float-right img-fluid logo" src="../images/Eagleslogo.png" alt ="Chalfont Eagles" />
