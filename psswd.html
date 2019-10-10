@@ -2,7 +2,7 @@
   <SCRIPT>
     function passWord() {
     var testV = 1;
-    var pass1 = prompt('Please Enter Your Password',' ');
+    var pass1 = document.getElementsByName("password1");
     while (testV < 3) {
     if (!pass1) 
     history.go(-1);
@@ -59,12 +59,12 @@
 				</ul>
 			</div>
 		</nav>
-  <CENTER>
+
    <form>
 	  <div class="form-group" onsubmit="return passWord()">
-	    <input type="password" class="form-control" style="width: 300px" id="exampleInputPassword1" placeholder="Password">
+	    <input type="password" name="password1" class="form-control" style="width: 300px" id="exampleInputPassword1" placeholder="Password">
 	  </div>
-	  <button type="submit" class="btn btn-primary">Submit</button>
+	  <input type="submit" class="btn btn-primary">Submit</input>
   </form>
-  </CENTER>
+
 </body>
